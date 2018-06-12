@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Encripta tu Mensaje</h1>
+    <div id="root"></div>
+    <form>
+      Ingrese su Mensaje <input id="textoIngresado" size="35" type="text" name="string" placeholder="Escribe aquí"></input>
+      <br>
+      <br>
+      Ingresa tu Clave <input id="clave" type="text"  placeholder="Escribe un numero"></input>
+      <input type="button" id="cifrar" value="Cifrar"  onclick="cifrarMensaje()"></input>
+      <input type="button" id="descifrar" value="Descifrar" onclick="descifrarMensaje()"></input>
+<!-- Ojo si coloco un button ejecuta la función pero refresca la pagina, por lo cual no se ve la funcionalidad -->
+    </form>
+  <div>
+    <h2 id=resultadoMensaje>Tu mensaje es:</h2>
+  </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
