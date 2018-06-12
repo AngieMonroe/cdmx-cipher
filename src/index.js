@@ -1,4 +1,4 @@
-//import { encode } from "punycode";
+/*//import { encode } from "punycode";
 //Inicio declarando una función de
 const cifrarMensaje = (offset,string) => {
   //llamo el primer parametro de la función desde un input
@@ -31,7 +31,7 @@ const cifrarMensaje = (offset,string) => {
       resultResiduo = resultOffset % 26;
       positionNew = resultResiduo + 65;
       /*positionNew = valorAscii - 65 + offset % 26 + 65
-        console.log (positionNew);*/
+        console.log (positionNew);
     }
     else
     if (valorAscii >= 97 && valorAscii <= 122) {
@@ -40,7 +40,7 @@ const cifrarMensaje = (offset,string) => {
       resultResiduo = resultOffset % 26;
       positionNew = resultResiduo + 97;
       /*positionNew = valorAscii - 97  + offset % 26) + 97;
-        console.log (positionNew);*/
+        console.log (positionNew);
     }
     else {
     console.log (valorAscii);
@@ -85,7 +85,7 @@ const descifrarMensaje = (offset,string) => {
       resultResiduo = resultOffset % 26;
       positionNew = resultResiduo + 65;
       /*positionNew = valorAscii - 65 + offset % 26 + 65
-        console.log (positionNew);*/
+        console.log (positionNew);
     }
     else
     if (valorAscii >= 97 && valorAscii <= 122) {
@@ -94,7 +94,7 @@ const descifrarMensaje = (offset,string) => {
       resultResiduo = resultOffset % 26;
       positionNew = resultResiduo + 122;
       /*positionNew = valorAscii - 97  + offset % 26) + 97;
-        console.log (positionNew);*/
+        console.log (positionNew);
     }
     else {
     console.log (valorAscii);
@@ -105,4 +105,4 @@ const descifrarMensaje = (offset,string) => {
     descifrar += cambiandoALetra;
     }
     document.getElementById("resultadoMensaje").innerHTML= `Tu mensaje es: ${descifrar}`;
-};
+};*/
