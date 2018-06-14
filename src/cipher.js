@@ -49,7 +49,7 @@ window.cipher = {
      cambiandoALetra = String.fromCharCode(positionNew);
      cifrado += cambiandoALetra;
      }
-     document.getElementById("resultadoMensaje").innerHTML= `Tu mensaje es: ${cifrado}`;
+     document.getElementById("resultadoMensaje").innerHTML= cifrado;
  },
 
  decode : (offset,string) => {
@@ -102,6 +102,6 @@ window.cipher = {
      cambiandoALetra = String.fromCharCode(positionNew);
      descifrar += cambiandoALetra;
      }
-     document.getElementById("resultadoMensaje").innerHTML= `Tu mensaje es: ${descifrar}`;
+     document.getElementById("resultadoMensaje").innerHTML= descifrar;
  }
 };

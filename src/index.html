@@ -9,18 +9,23 @@
     <h1>Encripta tu Mensaje</h1>
     <div id="root"></div>
     <form>
-      Ingrese su Mensaje <input id="textoIngresado" size="35" type="text" name="string" placeholder="Escribe aquí"></input>
+      <p>Ingresa tu Mensaje</p>
+        <textarea class="textoApoyo"id="textoIngresado" type="text" name="string" placeholder="Escribe aquí tu mensaje"></textarea>
+      <p>Ingresa tu Clave</p>
+      <input class="textoApoyo" id="clave" type="text"  placeholder="Escribe la clave"></input>
       <br>
+        <input type="button" id="cifrar" value="Cifrar"  onclick="cipher.encode()"></input>
+        <input type="button" id="descifrar" value="Descifrar" onclick="cipher.decode()"></input>
       <br>
-      Ingresa tu Clave <input id="clave" type="text"  placeholder="Escribe un numero"></input>
-      <input type="button" id="cifrar" value="Cifrar"  onclick="cipher.encode()"></input>
-      <input type="button" id="descifrar" value="Descifrar" onclick="cipher.decode()"></input>
+      <button id="limpiar" name="limpiar" value="limpiar" onclick="sumbit">Limpiar</button>
 <!-- Ojo si coloco un button ejecuta la función pero refresca la pagina, por lo cual no se ve la funcionalidad -->
     </form>
   <div>
-    <h2 id=resultadoMensaje>Tu mensaje es:</h2>
+    <h2>Tu mensaje es:</h2>
+    <h3 id=resultadoMensaje></h3>
   </div>
     <script src="index.js"></script>
     <script src="cipher.js"></script>
   </body>
+  <footer></footer>
 </html>
