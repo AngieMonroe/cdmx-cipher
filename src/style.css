@@ -1,30 +1,26 @@
 body {
-  background-image: url("http://s2.subirimagenes.com/privadas/previo/thump_2436866fondocipher.png");
-    height: 200%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #45B39D
 }
 
 h1 {
   color: white;
   text-align: center;
   font-family: 'Krona One', sans-serif;
-  font-size: 300%;
+  font-size: 70px;
 }
 
 p {
   color: white;
   text-align: center;
   font-family: 'Hind', sans-serif;
-  font-size: 100%;
+  font-size: 22px;
 }
 
 h2 {
   color: white;
   text-align: center;
   font-family: 'Hind', sans-serif;
-  font-size: 200%;
+  font-size: 30px;
 }
 
 form {
@@ -33,12 +29,12 @@ form {
 
 #textoIngresado{
   border-radius: 8px;
-  float: none;
   border-color: white;
   color: grey;
   font-family: 'Hind', sans-serif;
-  padding: 10px;
-  width: 60%;
+  font-size: 16px;
+  padding: 8px;
+  width: 600px;
   height: 70px;
 }
 
@@ -48,8 +44,9 @@ form {
   border-color: white;
   color: grey;
   font-family: 'Hind', sans-serif;
-  padding: 5px;
-  width: 30%;
+  font-size: 14px;
+  padding: 8px;
+  width: 200px;
   height:20px;
   margin-bottom: 8px;
 }
@@ -61,10 +58,11 @@ form {
   border-color: #8c66ff;
   padding: 4px;
   color:white;
-  width: 15%;
+  width: 200px;
   font-family: 'Hind', sans-serif;
-  font-size: 100%;
-  margin-right: 5%
+  font-size: 12px;
+  margin-right: 5px;
+  margin-top:5px;
 }
 
 #descifrar{
@@ -73,9 +71,11 @@ form {
   border-color: #ff9933;
   padding: 4px;
   color: white;
-  width: 15%;
+  width: 200px;
   font-family: 'Hind', sans-serif;
-  font-size: 100%;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-top:5px;
 }
 
 #limpiar {
@@ -95,4 +95,28 @@ form {
   text-align: center;
   font-family: 'Hind', sans-serif;
   font-size: 150%;
+}
+
+@media max-width:400px {
+  p {
+    font-size: 30px;
+  }
+  #textoIngresado{
+    height: 150px;
+    font-size: 100%;
+  }
+  }
+  #clave {
+    font-size: 100%;
+  }
+  #cifrar{
+    font-size: 100%;
+  }
+
+  #descifrar{
+    font-size: 100%;
+  }
+  #limpiar {
+    font-size: 100%;
+  }
 }
