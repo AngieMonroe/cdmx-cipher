@@ -19,3 +19,4 @@ Con Cipher se busca que el usuario resuelva su problema de comunicación de mane
  - La navegación dentro de la página es muy intuitiva.
  - Se cuido que la página cargara de manera rápida.
  
+La elección de los colores se centro en el usuario final y se busco que la aplicación fuera sencilla para facilitar el objetivo del usuario.
