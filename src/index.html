@@ -5,15 +5,17 @@
     <title>Caesar Cipher</title>
     <link href="https://fonts.googleapis.com/css?family=Hind|Krona+One" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css"/>
   </head>
   <body>
-    <div class="container"> </div>
     <h1>CIPHER</h1>
+    <h5>Bienvenido, Cipher es una aplicación que permite realizar una comunicación discreta.<br>
+    Solo debes escribir tu mensaje y elegir un número del 1 al 100 que será la contraseña para descifrarlo.<br>
+    Recuerda compartir la aplicación y la clave con tus amigos para que puedan descubrir el mensaje.</h5>
     <div id="root"></div>
     <form>
-      <p>Ingresa tu Mensaje</p>
-        <textarea class="textoApoyo"id="textoIngresado" type="text" name="string" placeholder="Escribe aquí tu mensaje"></textarea>
-      <p>Ingresa tu Clave</p>
+      <textarea class="textoApoyo"id="textoIngresado" type="text" name="string" placeholder="Escribe aquí tu mensaje"></textarea>
+      <br>
       <input class="textoApoyo" id="clave" type="text"  placeholder="Escribe la clave"></input>
       <br>
         <input type="button" id="cifrar" value="Cifrar"  onclick="cifrar1()"></input>

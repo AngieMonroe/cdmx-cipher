@@ -1,0 +1,41 @@
+@media(max-width:480px) and (min-width:200px) {
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  #textoIngresado{
+    font-size: 10px;
+    padding: 8px;
+    width: 300px;
+    height: 50px;
+  }
+  #clave {
+    font-size: 10px;
+    padding: 8px;
+    width: 100px;
+    height:10px;
+  }
+  #cifrar{
+    width: 150px;
+    font-size: 14px;
+  }
+
+  #descifrar{
+    width: 150px;
+    font-size: 14px;
+  }
+
+  #limpiar {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  #resultadoMensaje{
+    font-size: 16px;
+  }
+}

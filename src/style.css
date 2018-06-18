@@ -6,21 +6,22 @@ h1 {
   color: white;
   text-align: center;
   font-family: 'Krona One', sans-serif;
-  font-size: 70px;
-}
-
-p {
-  color: white;
-  text-align: center;
-  font-family: 'Hind', sans-serif;
-  font-size: 22px;
+  font-size: 60px;
 }
 
 h2 {
   color: white;
   text-align: center;
   font-family: 'Hind', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  margin: 10px;
 }
 
 form {
@@ -54,26 +55,26 @@ form {
 
 #cifrar{
   background: #8c66ff;
-  border-radius: 5px;
+  border-radius: 8px;
   border-color: #8c66ff;
   padding: 4px;
   color:white;
   width: 200px;
   font-family: 'Hind', sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   margin-right: 5px;
   margin-top:5px;
 }
 
 #descifrar{
   background: #ff9933;
-  border-radius: 5px;
+  border-radius: 8px;
   border-color: #ff9933;
   padding: 4px;
   color: white;
   width: 200px;
   font-family: 'Hind', sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   margin-right: 5px;
   margin-top:5px;
 }
@@ -86,37 +87,13 @@ form {
   color: gray;
   width: 10%;
   font-family: 'Hind', sans-serif;
-  font-size: 80%;
+  font-size: 14px;
   margin: 10px;
 }
 
 #resultadoMensaje{
-  color: gray;
+  color: #4d4d33;
   text-align: center;
   font-family: 'Hind', sans-serif;
-  font-size: 150%;
-}
-
-@media max-width:400px {
-  p {
-    font-size: 30px;
-  }
-  #textoIngresado{
-    height: 150px;
-    font-size: 100%;
-  }
-  }
-  #clave {
-    font-size: 100%;
-  }
-  #cifrar{
-    font-size: 100%;
-  }
-
-  #descifrar{
-    font-size: 100%;
-  }
-  #limpiar {
-    font-size: 100%;
-  }
+  font-size: 20px;
 }
